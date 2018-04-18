@@ -16,18 +16,13 @@ h3 {
 .section {
   width: 70%;
   margin: 15px;
-    clear: right;
 }
 
 .article {
   width: 70%;
   margin: 15px;
-  clear: right;
 }
 
-.aside {
-  float: right;
-}
 
 .header {
 
