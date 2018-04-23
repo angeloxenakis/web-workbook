@@ -1,0 +1,24 @@
+div {
+  color: rgb(0,128,170);
+  font-family: arial;
+  border-style: solid;
+  border-color: rgb(0,128,170);
+  background-color: rgb(255, 245, 190);
+  margin: auto;
+  margin-bottom: 20px;
+  padding: 30px;
+  width: 80%;
+}
+
+div p:nth-of-type(1):hover::first-letter {
+  color: orange;
+}
+
+div:nth-of-type(5) {
+  font-family: times !important;
+  text-align: center !important;
+}
+
+body {
+  background-color: rgb(245, 245, 220);
+}

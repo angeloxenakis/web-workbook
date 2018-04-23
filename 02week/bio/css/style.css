@@ -14,10 +14,22 @@ body {
   color: white;
 }
 
-p {
+h1 {
+  letter-spacing: 14px;
+    text-shadow: 5px, 10px;
+}
+
+p, a {
   font-family: helvetica;
   color: white;
+  hyphens: auto;
 }
+
+a:hover {
+  font-family: helvetica;
+  color: rgb(64,224,208);
+}
+
 
 .box {
   height: 500px;
