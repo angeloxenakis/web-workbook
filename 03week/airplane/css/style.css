@@ -1,0 +1,167 @@
+body {
+  background-image: url('../img/airline.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: 'Lato', sans-serif;
+}
+
+.top{
+  background: #193A55;
+  width: 101%;
+  display: flex;
+  border-bottom: 1px solid #ffffff;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  position: fixed;
+  left: -5px;
+  top: -5px;
+}
+
+.logo {
+  width: 50%;
+  position: relative;
+  margin-left: 70px;
+}
+
+.nav {
+  position: relative;
+  right: 5%;
+  margin-right: 100px;
+  box-sizing: border-box;
+}
+
+.nav-links{
+  display: inline-block;
+  margin: 0, 10px;
+}
+
+.nav p {
+  display: inline-block;
+  margin-left: 8px;
+}
+
+.nav img {
+  display: inline-block;
+  margin-left: 15px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #ffffff;
+  font-family: 'Lato', sans-serif;
+  display: inline-block;
+}
+
+a:hover {
+  color: #148D80;
+}
+
+.icons button {
+  background-color: #148d80;
+  width: 156px;
+  border: 0px;
+  border-radius: 4px;
+  margin-top: 200px;
+  margin-left: -8px;
+}
+
+.icons {
+  margin-left: 74px;
+}
+
+.icons button:hover {
+  background-color: #0E65B4;
+}
+
+.content-box {
+  margin-left: 70px;
+  width: 450px;
+  background-color: #193A55;
+}
+
+.destination input[type="text"] {
+  background-color: #193A55;
+  color: white;
+  width: 170px;
+  height: 40px;
+  font-size: 15px;
+  border-style: solid;
+  border-color: white;
+  border-width: 2px;
+  border-radius: 4px;
+  margin-top: 40px;
+  padding-left: 15px;
+}
+
+.destination input[type="text"]:nth-of-type(1) {
+  margin-right: 15px;
+}
+
+.destination input[type="text"]:nth-of-type(2) {
+  margin-left: 15px;
+}
+
+.date-picker input[type="date"] {
+  background-color: #193A55;
+  color: white;
+  width: 170px;
+  height: 40px;
+  font-size: 15px;
+  font-family: 'Lato';
+  border-style: solid;
+  border-color: white;
+  border-width: 2px;
+  border-radius: 4px;
+  margin-top: 25px;
+  padding-left: 15px;
+}
+
+.date-picker input[type="date"]:nth-of-type(1) {
+  margin-right: 15px;
+}
+
+.date-picker input[type="date"]:nth-of-type(2) {
+  margin-left: 15px;
+}
+
+.passenger-info {
+  color: white;
+  margin-top: 25px;
+  margin-left: 20px;
+}
+
+.dropdown {
+  background-color: #193A55;
+  color: white;
+  width: 85px;
+  height: 40px;
+  font-size: 15px;
+  border-style: solid;
+  border-color: white;
+  border-width: 2px;
+  border-radius: 4px;
+  margin-left: 20px;
+  margin-right: 35px;
+}
+
+.trip-option {
+  margin-left: 15px;
+}
+
+.button-submit {
+  background-color: #0E65B4;
+  width: 410px;
+  height: 40px;
+  font-size: 15px;
+  color: white;
+  margin-top: 25px;
+  margin-bottom: 30px;
+  border-radius: 4px;
+  border: none;
+}
+
+.button-submit:hover {
+  background-color: #148d80;
+}
