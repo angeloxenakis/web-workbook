@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>UX Atlantic</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <div class="top">
+        <div class="logo">
+          <img src ="./img/logo.png" alt="logo">
+        </div>
+        <div class="nav">
+            <a href="#"><img src="./img/home-icon.png" alt=""><p class="nav-links main link">Home</p></a>
+            <a href="#"><img src="./img/deal-icon.png" alt=""><p class="nav-links">Travel Deals</p></a>
+            <a href="#"><img src="./img/schedule-icon.png" alt=""><p class="nav-links">Flight Schedule</p></a>
+            <a href="#"><img src="./img/login-icon.png" alt=""><p class="nav-links">Register/Login</p></a>
+        </div>
+      </div>
+    </header>
+    <div class="icons">
+      <button type="button" name="plane" class="button-plane"><img src="./img/plane-icon.png"></button>
+      <button type="button" name="plane" class="button-plane"><img src="./img/hotel-icon.png"></button>
+      <button type="button" name="plane" class="button-plane"><img src="./img/car-icon.png"></button>
+    </div>
+    <div class="content-box">
+      <main>
+          <form class="travel-form" action="index.html" method="get">
+          <div class="destination">
+            <center><input type="text" name="depart" placeholder="Depart">
+            <input type="text" name="arrive" placeholder="Arrive"></center>
+          </div>
+          <div class="date-picker">
+            <center><input type="date">
+            <input type="date"></center>
+          </div>
+            <div class="passenger-info">
+              <div class="quantity">
+                Passengers
+                <select class="dropdown">
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                  <option value="6">6</option>
+                  <option value="7">7</option>
+                  <option value="8">8</option>
+                  <option value="9">9</option>
+                  <option value="10">10</option>
+                </select>
+                <form class="trip-option">
+                  <input type="radio" name="trip" value="return" checked> Return
+                  <input type="radio" name="trip" value="one-way"> One Way
+                </form>
+              </div>
+              <div class="radio-buttons">
+              </div>
+            </div>
+              <center><button type="submit" name="Submit" class="button-submit">Search Flights</button></center>
+          </form>
+      </main>
+    </div>
+  </body>
+</html>
