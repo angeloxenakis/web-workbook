@@ -1,0 +1,83 @@
+.container {
+  margin: 0 auto;
+  width: 80%;
+  font-family: 'Raleway', sans-serif;
+}
+
+.nasa {
+  color: white;
+  font-size: 50px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 850px;
+  height: 450px;
+  margin: 0 auto;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  background-image: url("../img/nasa-background.jpg");
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  width: 850px;
+  height: 324px;
+  margin: 0 auto;
+  background-color: #E6E6E6;
+}
+
+.content h2 {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.content p {
+  color: #4E4E4E;
+  font-size: 13px;
+  letter-spacing: 1px;
+  line-height: 1.6;
+}
+
+.soc-med {
+  width: 270px;
+  margin-right: 10px;
+  padding-top: 30px;
+  padding-left: 20px;
+}
+
+.info {
+  width: 270px;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-top: 30px;
+}
+
+.contact {
+  width: 270px;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-top: 30px;
+}
+
+input[type="text"]:nth-of-type(1) {
+  height: 20px;
+  width: 220px;
+}
+
+input[type="text"]:nth-of-type(2) {
+  height: 70px;
+  width: 220px;
+}
+
+.contact button {
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  background-color: #4E4E4E;
+  height: 30px;
+  width: 75px;
+  margin-top: 10px;
+}
