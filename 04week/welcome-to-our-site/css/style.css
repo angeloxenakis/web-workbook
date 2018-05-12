@@ -1,0 +1,164 @@
+@media (min-width: 10px) {
+
+  #container {
+    margin: 0 auto;
+  }
+
+  .welcome {
+    color: white;
+    font-size: 30px;
+    font-family: 'Playfair Display', serif;
+		font-weight: 400;
+    word-wrap: normal;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 450px;
+    margin: 0 auto;
+    margin-top: 25px;
+    background-color: #38ABDB;
+  }
+
+  .welcome h1 {
+    margin-left: 20px;
+  }
+
+	.welcome h1 a {
+		color: white;
+		font-weight: 900;
+		text-decoration: none;
+	}
+
+  .content {
+    color: black;
+    text-align: center;
+    background-color: #F7F5F6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+    padding-top: 60px;
+  }
+
+  .content h2 {
+    font-weight: bold;
+    font-size: 30px;
+		font-family: 'Playfair Display', serif;
+  }
+
+  .content p {
+    color: black;
+    font-size: 13px;
+    letter-spacing: 1px;
+    line-height: 1.6;
+    font-family: helvetica;
+  }
+
+  .title1 {
+    width: 170px;
+    border-top: 30px solid;
+    border-color: #38ABDB;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .title2 {
+    width: 170px;
+    border-top: 30px solid;
+    border-color: #F6693E;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .title3 {
+    width: 170px;
+    border-top: 30px solid;
+    border-color: #37CCBF;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+
+@media (min-width: 750px) {
+
+  #container {
+    margin: 0 auto;
+    width: 80%;
+  }
+
+  .welcome {
+    color: white;
+    font-size: 30px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 450px;
+    margin: 0 auto;
+    margin-top: 25px;
+    background-color: #37CCBF;
+  }
+
+	a {
+		color: white;
+		font-weight: 900;
+		text-decoration: none;
+	}
+
+  .content {
+    color: white;
+    text-align: center;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    width: 90%;
+    height: 324px;
+    margin: 0 auto;
+    padding-top: 60px;
+  }
+
+  .content h2 {
+    font-weight: bold;
+    font-size: 30px;
+    font-family: 'Playfair Display', serif;
+  }
+
+  .content p {
+    color: white;
+    font-size: 13px;
+    letter-spacing: 1px;
+    line-height: 1.6;
+    font-family: helvetica;
+  }
+
+  .title1 {
+    width: 170px;
+    border-top: 30px solid;
+    border-color: #38ABDB;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .title2 {
+    width: 170px;
+    border-top: 30px solid;
+    border-color: #F6693E;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .title3 {
+    width: 170px;
+    border-top: 30px solid;
+    border-color: #37CCBF;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
