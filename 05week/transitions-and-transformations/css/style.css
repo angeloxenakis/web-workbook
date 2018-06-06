@@ -1,12 +1,20 @@
 .container {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
+  width: 50px;
 }
 
-.square {
-  height: 50px;
+.container:hover :nth-child(odd) {
+  transform: translate(-500px) scale(.5) rotateZ(360deg);
+  transition: all 1s ease-in-out;
+}
+
+.container:hover :nth-child(even) {
+  transform: translate(500px) scale(2.0) rotateZ(360deg);
+  transition: all 3s ease-in-out;
+}
+
+.container > div {
   width: 50px;
-  background-color: darkgray;
+  height: 50px;
   margin: 10px;
+  background-color: gray;
 }
