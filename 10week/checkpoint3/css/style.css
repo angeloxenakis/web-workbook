@@ -1,0 +1,83 @@
+.bagWrap .punchingBag {
+  width: 180px;
+  height: 470px;
+  background-color: transparent;
+  display: block;
+  margin: 0 auto;
+  transition: 0.1s;
+  cursor: pointer;
+  position: relative;
+}
+
+/* Styling slightly shrink our bag when we click it */
+.bagWrap .punchingBag:active {
+  transform: scale(0.95);
+}
+
+body {
+  margin: 0;
+  display: flex;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+p {
+  text-align: center;
+  margin: 10px;
+  font-family: Helvetica;
+  font-size: 4vmin;
+}
+
+.wrap {
+  width: 50vw;
+  height: 100vh;
+  padding: 0;
+}
+
+.main {
+  border-right: 1px solid black;
+}
+
+.shop {
+  overflow-y: scroll;
+  padding: 0;
+  background-color: black;
+}
+
+/* Styling for out buttons */
+.shop button {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: Helvetica;
+  font-size: 3vmin;
+  background-color: transparent;
+  border-radius: 2px;
+  border: 1px solid white;
+  outline: none;
+  cursor: pointer;
+  color: white;
+}
+
+/* Styling when our buttons are clicked */
+.shop button:active {
+  border: 1px solid #222;
+  background-color: rgba(0, 255, 0, 0.5);
+  color: white;
+}
+
+.shop p {
+  font-size: 2vmin;
+  font-family: Helvetica;
+  color: white;
+}
+
+/* Styling to keep out images in the same format */
+.shop img {
+  width: 100px;
+  border-radius: 50%;
+  display: block;
+}
