@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Punching Bag</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="wrap main">
+    <p id="punches">0 punches</p>
+    <div class="bagWrap">
+      <div class="punchingBag">
+        <img src="./img/bag.png"> <!--We're going tpunch the crap out of this thing-->
+      </div>
+    </div>
+    <div>
+      <p id="messages">Click the bag to punch it!</p> <!--This message will change by javascript functions-->
+    </div>
+  </div>
+  <div class="shop wrap">
+    <center>
+    <!--Below are the buttons that will be connected to functions that effect our punch count-->
+    <img src="./img/gloves.jpg">
+    <button class="powerClick">Boxing Gloves</button>
+    <p id="pp">You have 0 boxing gloves - Cost: 50 punches</p>
+    <img src="./img/partner.png">
+    <button class="partner">Training Partners</button>
+    <p id="pc">You have 0 training partners - Cost: 15 punches</p>
+    <img src="./img/coach.png">
+    <button class="coach">Coach</button>
+    <p id ="pg">You have 0 coaches - Cost: 100 punches</p>
+    <img src="./img/rocky.png">
+    <button class="rocky">Rocky Balboa</button>
+    <p id ="pf">You have never trained with Rocky Baloa - Cost: 1,000 punches</p>
+    </center>
+  </div>
+  <script src="js/script.js"></script>
+</body>
+</html>
